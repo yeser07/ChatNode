@@ -1,0 +1,26 @@
+{
+  "name": "chatnode",
+  "version": "1.0.0",
+  "description": "Chat usando nodejs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node --watch ./server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yeser07/ChatNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yeser07/ChatNode/issues"
+  },
+  "homepage": "https://github.com/yeser07/ChatNode#readme",
+  "dependencies": {
+    "express": "4.18.2",
+    "morgan": "1.10.0"
+  }
+}
